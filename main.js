@@ -71,6 +71,7 @@ class AudioHandler {
 }
 
 
+
 let audioLoader = new AudioHandler();
 
 let nyanCatAudio = null;
