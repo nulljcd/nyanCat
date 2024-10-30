@@ -72,10 +72,9 @@ class AudioHandler {
 
 
 
-let audioLoader = new AudioHandler();
-
+let audioHandler = new AudioHandler();
 let nyanCatAudio = null;
-audioLoader.load('res/nyanCat.mp3').then(audioSprite => {
+audioHandler.load('res/nyanCat.mp3').then(audioSprite => {
   nyanCatAudio = audioSprite;
   nyanCatAudio.setLoop(true);
   document.body.onmousedown = () => {
